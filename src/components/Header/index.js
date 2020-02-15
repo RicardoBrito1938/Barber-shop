@@ -20,7 +20,7 @@ export default function Header() {
           <Profile>
             <div>
               <strong>Ricardo Brito</strong>
-              <Link to="/Profile">Meu Perfil</Link>
+              <Link to="/profile">Meu Perfil</Link>
             </div>
             <img
               src="https://api.adorable.io/avatars/50/abott@adorable.png"
