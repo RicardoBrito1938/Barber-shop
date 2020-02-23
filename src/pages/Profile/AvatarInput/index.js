@@ -20,7 +20,7 @@ export default function AvatarInput() {
         path: 'dataset.file',
       });
     }
-  }, [ref /* registerField*/]);
+  }, [ref, registerField]);
 
   async function handleChange(e) {
     const data = new FormData();
@@ -37,7 +37,7 @@ export default function AvatarInput() {
 
   return (
     <Container>
-      <label htmlFor="">
+      <label htmlFor="avatar">
         <img
           src={
             preview || 'https://api.adorable.io/avatars/50/abott@adorable.png'
